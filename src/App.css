@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    flex: 1 1 20%;
+    font-size: 0.9em;
+    height: 63px;
+	  color: blue;
+	  background-color: red !important;
+	  border: none;
+	  text-align: center;
+    border-radius: 8px;
+  }
+
+  #Keypad {
+    flex-flow: row wrap;
+  }
+}
