@@ -11,6 +11,11 @@
     text-transform: uppercase;
     border-radius: 8px;
     box-shadow: 0 3px hsl(28, 16%, 65%);
+    transition: 0.4s;
+  }
+
+  button:hover {
+    opacity: 0.9;
   }
 
   #Reset_btn, #Delete_btn {
