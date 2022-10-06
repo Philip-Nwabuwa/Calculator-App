@@ -8,7 +8,7 @@ import Header from "./components/header.jsx"
 const App = () => {
   return (
     <>
-      <main className="flex flex-col h-full items-center text-4xl font-bold">
+      <main className="flex flex-col h-full h-screen items-center text-4xl font-bold bg-[#3a4764]">
         <div className="flex flex-1 flex-col justify-center py-6 px-3 w-full max-w-lg">
 
           <Header />
@@ -16,10 +16,11 @@ const App = () => {
           <Screen/>
 
           <Keypad />
-
-          <Footer />
-
+          
         </div>
+
+        <Footer />
+        
       </main>
     </>
   );

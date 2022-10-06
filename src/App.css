@@ -7,11 +7,18 @@
     flex: 1 1 20%;
     font-size: 0.9em;
     height: 63px;
-	  color: blue;
-	  background-color: red !important;
-	  border: none;
 	  text-align: center;
+    text-transform: uppercase;
     border-radius: 8px;
+    box-shadow: 0 3px hsl(28, 16%, 65%);
+  }
+
+  #Reset_btn, #Delete_btn {
+    box-shadow: 0 3px hsl(224, 28%, 35%);
+  }
+
+  #Equal_btn {
+    box-shadow: 0 3px hsl(6, 70%, 34%);
   }
 
   #Keypad {
