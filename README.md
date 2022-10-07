@@ -11,7 +11,7 @@ Using the two in conjunction is one of the fastest ways to build a web app.
 - Hit run
 - Edit [App.jsx](#src/App.jsx) and watch it live update!
 
-### running on local meachine 
+### Running on local meachine 
 
 - npm install
 - npm run dev
