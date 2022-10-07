@@ -43,48 +43,49 @@ const App = () => {
 
   return (
     <main
-      className="flex flex-col h-full h-screen items-center text-4xl font-bold bg-[#3a4764]"
+      className="flex flex-col h-screen items-center text-4xl font-bold bg-[#3a4764]"
     >
-        <div className="flex flex-1 flex-col border-blue-200 bg-[#3a4764] rounded-xl justify-center mt-3 py-6 px-3 w-full max-w-lg">
+      <div className="flex flex-1 h-full flex-col border-blue-200 bg-[#3a4764] rounded-xl justify-center mt-3 py-6 px-3 w-full max-w-lg">
 
-          <Header />
+        <Header />
 
-          <div id="Screen">
-            <span id="display" className="text-right rounded-xl mt-3 cursor-text bg-[#182034] text-[#ffffff] inline-block w-full p-3 min-h-[2em]">
-              {calc || 0} <br />
-              {result || ""}
-            </span>
-          </div>
-
-          <div>
-            <div id="Keypad" className="btns w-full rounded-xl flex gap-3 sm:gap-4 justify-between bg-[#232c43] mt-5 p-4" >
-              <button onClick={() => calcResult("7")} className="btn bg-[#eae3dc] cursor-pointer text-[#444b5a]" type="button">7</button>
-              <button onClick={() => calcResult("8")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">8</button>
-              <button onClick={() => calcResult("9")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">9</button>
-              <button onClick={del} id="Delete_btn" className="btn bg-[#637097] cursor-pointer text-[#ffffff]" type="button">Del</button>
-              <button onClick={() => calcResult("4")} className="btn bg-[#eae3dc] cursor-pointer text-[#444b5a]" type="button">4</button>
-              <button onClick={() => calcResult("5")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">5</button>
-              <button onClick={() => calcResult("6")} className="btn bg-[#eae3dc] cursor-pointer text-[#444b5a]" type="button">6</button>
-              <button onClick={() => calcResult("+")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">+</button>
-              <button onClick={() => calcResult("1")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">1</button>
-              <button onClick={() => calcResult("2")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">2</button>
-              <button onClick={() => calcResult("3")} className="btn bg-[#eae3dc] cursor-pointer text-[#444b5a]" type="button">3</button>
-              <button onClick={() => calcResult("-")} className="btn bg-[#eae3dc] cursor-pointer text-[#444b5a]" type="button">-</button>
-              <button onClick={() => calcResult(".")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">.</button>
-              <button onClick={() => calcResult("0")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">0</button>
-              <button onClick={() => calcResult("/")} className="btn bg-[#eae3dc] cursor-pointer text-[#444b5a]" type="button">/</button>
-              <button onClick={() => calcResult("*")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">x</button>
-              <button onClick={reset} id="Reset_btn" className="btn bg-[#637097] cursor-pointer text-[#ffffff]" type="button">Reset</button>
-
-
-              <button onClick={solution} id="Equal_btn" className="btn bg-[#d03f2f] cursor-pointer text-[#ffffff]" type="button">=</button>
-            </div>
-          </div>
+        <div id="Screen">
+          <span id="display" className="text-right rounded-xl mt-3 mb-4 cursor-text bg-[#182034] text-[#ffffff] inline-block w-full p-3 min-h-[2em]">
+            {calc || 0} <br />
+            {result || ""}
+          </span>
         </div>
 
-        <Footer />
+        <div>
+          <div id="Keypad" className="btns w-full rounded-xl flex gap-3 sm:gap-4 justify-between bg-[#232c43] mt-5 p-4" >
+            <button onClick={() => calcResult("7")} className="btn bg-[#eae3dc] cursor-pointer text-[#444b5a]" type="button">7</button>
+            <button onClick={() => calcResult("8")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">8</button>
+            <button onClick={() => calcResult("9")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">9</button>
+            <button onClick={del} id="Delete_btn" className="btn bg-[#637097] cursor-pointer text-[#ffffff]" type="button">Del</button>
+            <button onClick={() => calcResult("4")} className="btn bg-[#eae3dc] cursor-pointer text-[#444b5a]" type="button">4</button>
+            <button onClick={() => calcResult("5")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">5</button>
+            <button onClick={() => calcResult("6")} className="btn bg-[#eae3dc] cursor-pointer text-[#444b5a]" type="button">6</button>
+            <button onClick={() => calcResult("+")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">+</button>
+            <button onClick={() => calcResult("1")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">1</button>
+            <button onClick={() => calcResult("2")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">2</button>
+            <button onClick={() => calcResult("3")} className="btn bg-[#eae3dc] cursor-pointer text-[#444b5a]" type="button">3</button>
+            <button onClick={() => calcResult("-")} className="btn bg-[#eae3dc] cursor-pointer text-[#444b5a]" type="button">-</button>
+            <button onClick={() => calcResult(".")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">.</button>
+            <button onClick={() => calcResult("0")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">0</button>
+            <button onClick={() => calcResult("/")} className="btn bg-[#eae3dc] cursor-pointer text-[#444b5a]" type="button">/</button>
+            <button onClick={() => calcResult("*")} className="btn bg-[#eae3dc]  cursor-pointer text-[#444b5a]" type="button">x</button>
+            <button onClick={reset} id="Reset_btn" className="btn bg-[#637097] cursor-pointer text-[#ffffff]" type="button">Reset</button>
 
-      </main>
+
+            <button onClick={solution} id="Equal_btn" className="btn bg-[#d03f2f] cursor-pointer text-[#ffffff]" type="button">=</button>
+          </div>
+        </div>
+      </div>
+
+      <Footer />
+        
+    </main>
+      
   );
 }
 
