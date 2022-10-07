@@ -1,0 +1,32 @@
+[debug] [2022-10-07T10:22:49.289Z] ----------------------------------------------------------------------
+[debug] [2022-10-07T10:22:49.293Z] Command:       /nix/store/ra8r42571xvv1m85wanh1ll9mxmp0mwl-nodejs-16.13.2/bin/node /home/runner/Calculator-App/.config/npm/node_global/bin/firebase login
+[debug] [2022-10-07T10:22:49.294Z] CLI Version:   11.14.1
+[debug] [2022-10-07T10:22:49.295Z] Platform:      linux
+[debug] [2022-10-07T10:22:49.295Z] Node Version:  v16.13.2
+[debug] [2022-10-07T10:22:49.295Z] Time:          Fri Oct 07 2022 10:22:49 GMT+0000 (Coordinated Universal Time)
+[debug] [2022-10-07T10:22:49.296Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=708306289&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-10-07T10:24:06.150Z] ----------------------------------------------------------------------
+[debug] [2022-10-07T10:24:06.154Z] Command:       /nix/store/ra8r42571xvv1m85wanh1ll9mxmp0mwl-nodejs-16.13.2/bin/node /home/runner/Calculator-App/.config/npm/node_global/bin/firebase login --interactive
+[debug] [2022-10-07T10:24:06.159Z] CLI Version:   11.14.1
+[debug] [2022-10-07T10:24:06.159Z] Platform:      linux
+[debug] [2022-10-07T10:24:06.160Z] Node Version:  v16.13.2
+[debug] [2022-10-07T10:24:06.160Z] Time:          Fri Oct 07 2022 10:24:06 GMT+0000 (Coordinated Universal Time)
+[debug] [2022-10-07T10:24:06.160Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=268222500&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
