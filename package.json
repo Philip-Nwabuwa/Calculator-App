@@ -30,7 +30,7 @@
     "vite": "^3.1.4"
   },
   "dependencies": {
-    "firebase": "^9.13.0",
+    "firebase": "^10.2.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.4.3"
   }
